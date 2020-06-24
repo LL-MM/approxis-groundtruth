@@ -3,8 +3,7 @@
 Generates a ground truth map of a binary with the help of debug symbols.
 
 
-![ground truth map file](https://i.ibb.co/Wxzsv20/groundtruth-comp.png)
-
+![ground truth map file | distorm | ida](https://i.ibb.co/Wxzsv20/groundtruth-comp.png)
 
 
 ### Features
