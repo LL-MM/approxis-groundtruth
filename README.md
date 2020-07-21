@@ -24,16 +24,17 @@ Currently the PDB/ELF files do **not** get automatically parsed with the help of
 
 ##### Convert PDB to YAML dump
 
-> $ llvm-pdbutil-<version> pdb2yaml -all <path_to_pdb>  > dump
+```> $ llvm-pdbutil-<version> pdb2yaml -all <path_to_pdb>  > dump ```
 
 ##### Convert ELF to YAML dump
-> $ obj2yaml-<version> <path_to_elf>  > dump
+```> $ obj2yaml-<version> <path_to_elf>  > dump ```
 
 #### Create ground truth map from dump
-
+```
 > $ git clone https://github.com/LL-MM/approxis-groundtruth && cd approxis-groundtruth  
 > $ cargo build --release  
 > $ cargo run --release <path_to_yaml_dump> <path_to_binary>
+```
 
 Creates a debug report with statistics and two dumps named <binary_name>.yaml and <binary_name>.txt.
 
